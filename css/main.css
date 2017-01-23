@@ -1,0 +1,19 @@
+.bear {
+  width: auto;
+}
+
+#left-ear {
+  transform-origin: center center;
+}
+
+.bear:hover #left-ear {
+  transform: translateY(-5px);
+}
+
+#right-ear {
+  transform-origin: center center;
+}
+
+.bear:hover #right-ear {
+  transform: translateY(-5px);
+}

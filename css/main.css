@@ -1,19 +1,19 @@
-.bear {
-  width: auto;
+#face:hover, #left-ear, #right-ear {
+  top: -10px;
+  transition: top .5s linear;
 }
 
-#left-ear {
-  transform-origin: center center;
+#left-eye, #right-eye {
+  animation: translate 3s infinite;
 }
 
-.bear:hover #left-ear {
-  transform: translateY(-5px);
-}
+@keyframes translate {
 
-#right-ear {
-  transform-origin: center center;
-}
+  from {
+    transform: translateX(-10px);
+  }
 
-.bear:hover #right-ear {
-  transform: translateY(-5px);
+  to {
+    transform: translateX(0);
+  }
 }
